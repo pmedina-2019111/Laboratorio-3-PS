@@ -1,0 +1,33 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "commentCollectionFep",
+    "dateExported": "2024-03-04T05:12:46.232Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "5a8e8119-4739-4121-9e0e-4cb7fb3218da",
+            "colId": "19a817e4-0fbc-4c4f-8a5a-998bb78ecb7e",
+            "containerId": "",
+            "name": "commentPost",
+            "url": "http://localhost:3000/api/com/65e54bd142269ffa5e3bd73b",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-03-04T04:56:32.870Z",
+            "modified": "2024-03-04T05:05:14.241Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWU1MzM0NDJkZDI2YjAzZGZjYzYyNTUiLCJpYXQiOjE3MDk1MjYyMTgsImV4cCI6MTcwOTUyOTgxOH0._IU4y-5AEg3D3uwW-ZziyqUnP93OH3ImsH4MUhd3j_k"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"descripcionComment\": \"yo que se mano\"\n}",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}

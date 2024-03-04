@@ -1,0 +1,36 @@
+[{
+  "_id": {
+    "$oid": "65e54a806a7761138fc95aa0"
+  },
+  "userId": "65e533442dd26b03dfcc6255",
+  "userName": "zzzz",
+  "titlePub": "abueno",
+  "categoryPub": "no c",
+  "descriptionBY": "yo q c",
+  "state": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65e54bd142269ffa5e3bd73b"
+  },
+  "userId": "65e533442dd26b03dfcc6255",
+  "userName": "zzzz",
+  "titlePub": "felipe nolesabe",
+  "categoryPub": "bruh",
+  "descriptionBY": "insano",
+  "state": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65e55021f9be63229477be63"
+  },
+  "userId": "65e533442dd26b03dfcc6255",
+  "userName": "zzzz",
+  "titlePub": "paborrar",
+  "categoryPub": "bruh",
+  "descriptionBY": "insano",
+  "state": false,
+  "__v": 0
+}]

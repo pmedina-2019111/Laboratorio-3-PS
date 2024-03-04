@@ -1,0 +1,90 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "PublicationsCollectionFelix",
+    "dateExported": "2024-03-04T05:12:37.489Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "4d7592c4-5358-47bc-8b69-6e6ade709963",
+            "colId": "38879c5c-cd02-4cb3-9de3-1712bc3d13b0",
+            "containerId": "",
+            "name": "publicPost",
+            "url": "http://localhost:3000/api/publica",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-03-04T03:28:25.644Z",
+            "modified": "2024-03-04T04:37:53.542Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWU1MzM0NDJkZDI2YjAzZGZjYzYyNTUiLCJpYXQiOjE3MDk1MjYyMTgsImV4cCI6MTcwOTUyOTgxOH0._IU4y-5AEg3D3uwW-ZziyqUnP93OH3ImsH4MUhd3j_k"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"userId\": \"65e533442dd26b03dfcc6255\",\n  \"userName\": \"zzzz\",\n  \"titlePub\": \"paborrar\",\n  \"categoryPub\": \"bruh\",\n  \"descriptionBY\": \"insano\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "feed9f68-2c87-4a70-8e56-c8a26a07c10e",
+            "colId": "38879c5c-cd02-4cb3-9de3-1712bc3d13b0",
+            "containerId": "",
+            "name": "PublicPut",
+            "url": "http://localhost:3000/api/publica/65e54a806a7761138fc95aa0",
+            "method": "PUT",
+            "sortNum": 20000,
+            "created": "2024-03-04T04:18:44.844Z",
+            "modified": "2024-03-04T04:32:51.061Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWU1MzM0NDJkZDI2YjAzZGZjYzYyNTUiLCJpYXQiOjE3MDk1MjYyMTgsImV4cCI6MTcwOTUyOTgxOH0._IU4y-5AEg3D3uwW-ZziyqUnP93OH3ImsH4MUhd3j_k"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n   \"titlePub\": \"abueno\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "547fd573-6499-4313-8e7d-0a8c4414771f",
+            "colId": "38879c5c-cd02-4cb3-9de3-1712bc3d13b0",
+            "containerId": "",
+            "name": "publicDelete",
+            "url": "http://localhost:3000/api/publica/65e55021f9be63229477be63",
+            "method": "DELETE",
+            "sortNum": 30000,
+            "created": "2024-03-04T04:33:46.424Z",
+            "modified": "2024-03-04T04:39:53.733Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWU1MzM0NDJkZDI2YjAzZGZjYzYyNTUiLCJpYXQiOjE3MDk1MjYyMTgsImV4cCI6MTcwOTUyOTgxOH0._IU4y-5AEg3D3uwW-ZziyqUnP93OH3ImsH4MUhd3j_k"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "6644c424-afb2-4574-9879-016871ce0b7f",
+            "colId": "38879c5c-cd02-4cb3-9de3-1712bc3d13b0",
+            "containerId": "",
+            "name": "getPublicationsFe",
+            "url": "http://localhost:3000/api/publica",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2024-03-04T04:43:46.986Z",
+            "modified": "2024-03-04T04:46:28.828Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
